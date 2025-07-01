@@ -35,6 +35,24 @@ section {
   max-width: 800px;
 }
 
+#about h1 {
+  color: #fff;
+}
+
+#about h4 {
+  color: #fff;
+}
+
+.about-list {
+  list-style: none;
+  padding-left: 0;
+  color: #fff;
+}
+
+.about-list li {
+  margin-bottom: 0.5rem;
+}
+
 .experience-card {
   position: relative;
   background: rgba(255, 255, 255, 0.15);
@@ -90,6 +108,13 @@ section {
   border-radius: 0.5rem;
   margin-bottom: 1rem;
 }
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
 .project-img {
   width: 100%;
   height: auto;
@@ -108,4 +133,22 @@ section {
   color: rgba(255, 255, 255, 0.7) !important;
   font-size: 0.95rem;
   font-weight: normal !important;
+}
+
+.experience-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+  cursor: pointer;
+}
+
+.contact-icon {
+  width: 48px;
+  height: 48px;
+  transition: transform 0.2s ease, filter 0.2s ease;
+  filter: brightness(0) invert(1);  /* white icons over dark background */
+}
+
+.contact-icon:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2) invert(1);
 }

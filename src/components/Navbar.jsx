@@ -16,7 +16,7 @@ export default function Navbar() {
         <BSNavbar.Collapse id="main-nav">
           <Nav className="ms-auto">
             {links.map(l => (
-              <Nav.Link key={l.id} href={`${l.id}`}>{l.label}</Nav.Link>
+              <Nav.Link key={l.id} href={`#${l.id}`}>{l.label}</Nav.Link>
             ))}
           </Nav>
         </BSNavbar.Collapse>
