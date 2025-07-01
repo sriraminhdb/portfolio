@@ -1,12 +1,45 @@
-# React + Vite
+# 🖥️ Sriramkumar Raja Natarajan • Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, single‐page React + Vite portfolio showcasing my skills, education, experience, projects, and contact info.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
 
-## Expanding the ESLint configuration
+- **About** section with side‐by‐side profile photo and “Hi there 👋” intro  
+- **Education**, **Experience**, **Projects** rendered as two‐column, frosted‐glass cards  
+- **Projects** lift on hover and link directly to GitHub repositories  
+- **Contact** icons (Phone, Email, LinkedIn, GitHub) with hover tooltips  
+- Smooth anchor‐based scrolling via a fixed Bootstrap navbar  
+- Fully **responsive**: single column on mobile, two columns on tablet/desktop  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Framework:** React 18  
+- **Bundler:** Vite  
+- **Styling:** Bootstrap
+- **Icons & Images:** Static assets in `public/images` & `public/icons`  
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js ≥ 16.x  
+- npm (comes with Node.js)  
+
+### Install & Run
+
+```bash
+# 1. Clone this repo
+git clone https://github.com/your-username/portfolio.git
+cd portfolio
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
