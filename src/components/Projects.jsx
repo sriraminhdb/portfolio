@@ -2,6 +2,14 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const projects = [
   {
+  image: '/images/satellite-screenshot.png',
+  title: 'Multi-DB Satellite Insights',
+  period: 'May 2025 - June 2025',
+  tech: 'React.js, Python, Neo4j, Docker',
+  desc: 'Developed the Python microservice for constellation tracking.',
+  repo: 'https://github.com/OrbitOps-Five/multi-db-satellite-insights' 
+  },
+  {
     image: '/images/llm-screenshot.png',
     title: 'LLM Benchmarking Framework',
     period: 'April 2025 – May 2025',
