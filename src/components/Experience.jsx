@@ -15,11 +15,11 @@ const experiences = [
   {
     logo: '/logos/beml.png',
     company: 'BEML Limited, Bengaluru',
-    role: 'Intern – IT Support',
+    role: 'Intern – Software Engineer',
     period: 'July 2023 – October 2023',
     bullets: [
-      'Maintained and managed IT infrastructure, ensuring secure, reliable daily operations.',
-      'Partnered with the IT Security team to identify, eliminate, and prevent security risks.',
+      'Developed responsive web interfaces improving page load times and user engagement.',
+      'Collaborated with back-end developers to integrate APIs and ensure seamless data flow.',
     ],
   },
 ]
