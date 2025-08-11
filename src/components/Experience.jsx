@@ -2,17 +2,6 @@ import { Container, Row, Col } from 'react-bootstrap'
 
 const experiences = [
   {
-    logo: '/logos/flink.png',
-    company: 'Flink SE, Mannheim',
-    role: 'Working Student – Operations Associate',
-    period: 'May 2024 – August 2024',
-    bullets: [
-      'Managed inventory control for groceries and beverages to ensure accuracy and efficiency.',
-      'Coordinated staff shift assignments and effectively addressed customer complaints.',
-      'Tracked delivery status to ensure timely service and customer satisfaction.',
-    ],
-  },
-  {
     logo: '/logos/beml.png',
     company: 'BEML Limited, Bengaluru',
     role: 'Intern – Software Engineer',
