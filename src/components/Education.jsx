@@ -3,7 +3,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 const educations = [
   {
     logo: '/logos/srh.png',
-    institution: 'SRH Hochschule Heidelberg - Heidelberg, Germany',
+    institution: 'SRH University - Heidelberg, Germany',
     degree: 'Master of Science in Applied Computer Science',
     period: 'April 2024 – Present',
     details: 'Grade: 1.8 / 4.0',
